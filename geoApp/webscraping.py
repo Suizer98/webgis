@@ -70,7 +70,7 @@ elements = driver.find_elements(By.CLASS_NAME, "addressText")
 
 # Geocoder
 # Create and activate api key on google cloud platform to use its api
-gmaps = googlemaps.Client(key='AIzaSyB9-TQpzo1bAJuSBXnYMpCCyXgJbE86h50')
+gmaps = googlemaps.Client(key='')
 
 # geocoder = Nominatim(user_agent= 'SZ')
 # country = []
