@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'geo.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 # DATABASES = {
 #    'default': {
@@ -93,15 +93,15 @@ WSGI_APPLICATION = 'geo.wsgi.application'
 #        'PORT': '',
 #     } }
 
-DATABASES = {
-   'default': {
-       'ENGINE': 'django.db.backends.mysql',
-       'NAME': 'mymcd_scraped',   #Name of database you created
-       'USER': 'root',        #Username of database you created
-       'PASSWORD':'1998',         #Password of database you created
-       'HOST': '35.193.188.63',
-       'PORT': '3306',
-    } }
+# DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'mymcd_scraped',   #Name of database you created
+#        'USER': 'root',        #Username of database you created
+#        'PASSWORD':'1998',         #Password of database you created
+#        'HOST': '35.193.188.63',
+#        'PORT': '3306',
+#     } }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
